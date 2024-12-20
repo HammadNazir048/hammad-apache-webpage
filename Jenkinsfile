@@ -3,7 +3,7 @@ pipeline {
     environment {
         APACHE_DIR = "/var/www/html"   // Apache web server directory on Azure VM
         VM_IP = "20.118.206.34"       // Your Azure VM public IP
-        USERNAME = "Hammad"           // Your Azure VM username
+        USERNAME = "azureuser"           // Your Azure VM username
     }
     stages {
         stage('Checkout') {
